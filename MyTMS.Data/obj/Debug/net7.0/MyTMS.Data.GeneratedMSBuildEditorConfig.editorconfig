@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyTMS.Data
-build_property.ProjectDir = C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Data\
+build_property.ProjectDir = C:\Users\DavidLe\Documents\Research\MyTMS\MyTMS.Data\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

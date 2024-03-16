@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyTMS.RestAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103544d6d0d3d5206a18ac3b144da91f77fc319d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+064ef4c415a0076d8710a3e243a5fea411fa7101")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyTMS.RestAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyTMS.RestAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

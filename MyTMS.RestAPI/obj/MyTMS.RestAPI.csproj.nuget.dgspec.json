@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj": {}
+    "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj": {
+    "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
+        "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
         "projectName": "MyTMS.Data",
-        "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
+        "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
         "packagesPath": "C:\\Users\\DavidLe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\obj\\",
+        "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj": {
+    "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj",
         "projectName": "MyTMS.RestAPI",
-        "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj",
+        "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.RestAPI\\MyTMS.RestAPI.csproj",
         "packagesPath": "C:\\Users\\DavidLe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.RestAPI\\obj\\",
+        "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.RestAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -120,11 +120,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj": {
-                "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj"
+              "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj": {
+                "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj"
               },
-              "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj": {
-                "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj"
+              "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj": {
+                "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj"
               }
             }
           }
@@ -190,14 +190,14 @@
         }
       }
     },
-    "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj": {
+    "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj",
+        "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj",
         "projectName": "MyTMS.Service",
-        "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj",
+        "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Service\\MyTMS.Service.csproj",
         "packagesPath": "C:\\Users\\DavidLe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Service\\obj\\",
+        "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -222,8 +222,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj": {
-                "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj"
+              "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj": {
+                "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj"
               }
             }
           }

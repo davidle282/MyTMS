@@ -3432,11 +3432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
+      "projectUniqueName": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
       "projectName": "MyTMS.Data",
-      "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
+      "projectPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
       "packagesPath": "C:\\Users\\DavidLe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\ASP.NET\\MyTMS\\MyTMS.Data\\obj\\",
+      "outputPath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
