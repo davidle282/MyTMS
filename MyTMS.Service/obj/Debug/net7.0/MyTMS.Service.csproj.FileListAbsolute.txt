@@ -1,0 +1,15 @@
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\bin\Debug\net7.0\MyTMS.Service.deps.json
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\bin\Debug\net7.0\MyTMS.Service.dll
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\bin\Debug\net7.0\MyTMS.Service.pdb
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.csproj.AssemblyReference.cache
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.AssemblyInfoInputs.cache
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.AssemblyInfo.cs
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.csproj.CoreCompileInputs.cache
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.dll
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\refint\MyTMS.Service.dll
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Service.pdb
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\ref\MyTMS.Service.dll
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\bin\Debug\net7.0\MyTMS.Data.dll
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\bin\Debug\net7.0\MyTMS.Data.pdb
+C:\Users\DavidLe\Documents\Research\ASP.NET\MyTMS\MyTMS.Service\obj\Debug\net7.0\MyTMS.Se.E7C26C2D.Up2Date

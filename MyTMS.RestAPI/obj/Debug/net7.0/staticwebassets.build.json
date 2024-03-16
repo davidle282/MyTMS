@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "43R3Gku5R+V2DRiKlZHQHbEf/pbun+7v9bzVxt1Tc2g=",
+  "Source": "MyTMS.RestAPI",
+  "BasePath": "_content/MyTMS.RestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
