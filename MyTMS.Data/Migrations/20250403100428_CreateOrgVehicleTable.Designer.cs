@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyTMS.Data.DataContext;
 
@@ -11,9 +12,11 @@ using MyTMS.Data.DataContext;
 namespace MyTMS.Data.Migrations
 {
     [DbContext(typeof(MyTMSDBContext))]
-    partial class MyTMSDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250403100428_CreateOrgVehicleTable")]
+    partial class CreateOrgVehicleTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,47 +61,6 @@ namespace MyTMS.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Organizations");
-                });
-
-            modelBuilder.Entity("MyTMS.Data.Entities.Place", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long?>("CreatedBy")
-                        .HasColumnType("bigint");
-
-                    b.Property<DateTimeOffset?>("CreatedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<long>("OrganizationId")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("PlaceName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("Rowguid")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<long?>("UpdatedBy")
-                        .HasColumnType("bigint");
-
-                    b.Property<DateTimeOffset?>("UpdatedOn")
-                        .HasColumnType("datetimeoffset");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OrganizationId");
-
-                    b.ToTable("Places");
                 });
 
             modelBuilder.Entity("MyTMS.Data.Entities.User", b =>
@@ -216,17 +178,6 @@ namespace MyTMS.Data.Migrations
                     b.ToTable("Vehicles");
                 });
 
-            modelBuilder.Entity("MyTMS.Data.Entities.Place", b =>
-                {
-                    b.HasOne("MyTMS.Data.Entities.Organization", "Organization")
-                        .WithMany("Places")
-                        .HasForeignKey("OrganizationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Organization");
-                });
-
             modelBuilder.Entity("MyTMS.Data.Entities.Vehicle", b =>
                 {
                     b.HasOne("MyTMS.Data.Entities.Organization", "Organization")
@@ -240,8 +191,6 @@ namespace MyTMS.Data.Migrations
 
             modelBuilder.Entity("MyTMS.Data.Entities.Organization", b =>
                 {
-                    b.Navigation("Places");
-
                     b.Navigation("Vehicles");
                 });
 #pragma warning restore 612, 618

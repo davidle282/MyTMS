@@ -25,7 +25,12 @@ namespace MyTMS.Data.DataContext
 
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Organization> Organizations { get; set; }
+        public virtual DbSet<Vehicle> Vehicles { get; set; }
+        public virtual DbSet<Place> Places { get; set; }
 
+        //dotnet ef migrations add CreateOrgVehicleTable --project C:\Users\DavidLe\Documents\Research\MyTMS\MyTMS.Data
+        //dotnet ef database update --project C:\Users\DavidLe\Documents\Research\MyTMS\MyTMS.Data
     }
 
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9I0kKcP7Y5Yo4Kd9wL54JK/nioKD1I3cPkL5jI851cIKoKo4CGvoLpd+zTF5qy+HVxA7KCZtqRIUd0na7iUoIA==",
+  "dgSpecHash": "cstpiq6ujjBS47OGui9xTXboD64iLQyWQpZypWWzPsxi8Avcr9bsiS50/8gnCmBO1Gea9WEu1BHS16tg3eZ93g==",
   "success": true,
   "projectFilePath": "C:\\Users\\DavidLe\\Documents\\Research\\MyTMS\\MyTMS.Data\\MyTMS.Data.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
+    "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\DavidLe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

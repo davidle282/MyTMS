@@ -1,0 +1,29 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+
+# Ignore temporary files
+*.cache
+*.vsidx
+*.sourcelink.json
+
+# Ignore global files
+*.log
+*.tmp
+
+# Ignore Rider/Resharper (if you use them)
+.idea/
+*.DotSettings.user
+
+# config files
+MyTMS.RestAPI/firebase-config.json
+MyTMS.RestAPI/appsettings.json
