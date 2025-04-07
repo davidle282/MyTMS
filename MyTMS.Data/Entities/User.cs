@@ -19,5 +19,6 @@ namespace MyTMS.Data.Entities
         public string PhoneNo { get; set; } = string.Empty;
         public string Mobile { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
+        public virtual List<Booking> UserCreatedBookings { get; set; } = new List<Booking>();
     }
 }

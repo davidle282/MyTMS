@@ -15,5 +15,8 @@ namespace MyTMS.Data.Entities
         public virtual List<Vehicle>? Vehicles { get; set; } = new List<Vehicle>();
         public virtual List<Place>? Places { get; set; } = new List<Place>();
 
+        public virtual List<Booking>? FreightPayerBookings { get; set; } = new List<Booking>();
+        public virtual List<Booking>? FreightCarrierBookings { get; set; } = new List<Booking>();
+
     }
 }

@@ -15,6 +15,8 @@ namespace MyTMS.Data.Entities
         public double? Weight { get; set; }
         public long OrganizationId { get; set; }
         public virtual Organization Organization { get; set; } = new Organization();
+        public virtual List<Booking>? CurrentVehicleBookings { get; set; } = new List<Booking>();
+        public virtual List<Booking>? LastVehicleBookings { get; set; } = new List<Booking>();
 
     }
 }

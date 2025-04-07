@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyTMS.Data.DataContext;
 
@@ -11,9 +12,11 @@ using MyTMS.Data.DataContext;
 namespace MyTMS.Data.Migrations
 {
     [DbContext(typeof(MyTMSDBContext))]
-    partial class MyTMSDBContextModelSnapshot : ModelSnapshot
+    [Migration("20250407112951_CreateBookingTable")]
+    partial class CreateBookingTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

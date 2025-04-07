@@ -17,7 +17,7 @@ namespace MyTMS.RestAPI.Controllers
             _userService = userService;
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpGet]
         public async Task<List<User>> GetAllUsers()
         {
